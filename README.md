@@ -1,0 +1,1 @@
+Primeira aula de JS falando sobre variaveis, alertas etc.

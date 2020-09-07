@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+    <style>
+        body{
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Variaveis</h1>
+    <p>Aula de JavaScript</p>
+
+    <script>
+         var nome = window.prompt("Digite o seu nome");
+         var n1 = Number.parseInt(window.prompt("Digite um número")); // Number.parseFloat()
+         var n2 = Number.parseInt(window.prompt("Digite outro número"));
+         var s = n1 + n2;
+         document.write("Bem vindo, "+ nome + " ! <br>");
+         document.write(`Seu nome tem ${nome.length} letras`);
+         window.alert("Resultado: " + n1 + " + " + n2 + " = " + s);
+         window.alert(`Usando placeholder; Resultado: ${n1} + ${n2} = ${s}`);
+         window.confirm("Dê ok para continuar");
+    </script>
+</body>
+</html>
